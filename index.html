@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>My Library</title>
+</head>
+
+<body>
+  <main class="main">
+    <header>
+      <h1>Library Project</h1>
+    </header>
+    <section class="section-form">
+      <button type="button" class="show-dialog">Add Book</button>
+
+      <div class="dialog-container">
+        <dialog>
+          <form role="form" class="form">
+            <input type="text" placeholder="title" id="title" required>
+            <input type="text" placeholder="author" id="author" required>
+            <input type="number" placeholder="pages" id="pages" required>
+            <div class="form-buttons">
+              <button class="submit-button" type="submit">Add</button>
+              <button class="close-dialog" type="button">Close</button>
+            </div>
+
+          </form>
+        </dialog>
+      </div>
+
+
+
+
+    </section>
+    <section class="books">
+      <ul class="books-list">
+      </ul>
+    </section>
+  </main>
+
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f5f2;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: #f7cb45;
+}
+
+.delete-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: auto;
+  width: 5rem;
+  position: sticky;
+  margin-top: 5rem;
+}
+
+.delete-button:hover {
+  color: red;
+  border: 2px solid red;
+}
+
+.status-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: auto;
+  width: 5rem;
+  position: sticky;
+  margin-top: 5rem;
+}
+
+.status-button:hover {
+  background-color: #22a094;
+}
+
+.done {
+  background-color: #22a094;
+}
+
+.section-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-dialog {
+  font-size: 1rem;
+  padding: 0.5rem 0.9rem;
+  width: 5rem;
+}
+
+.submit-button {
+  font-size: 1rem;
+  padding: 0.5rem 0.9rem;
+  width: 5rem;
+}
+
+.submit-button:hover {
+  background-color: #22a094;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 15rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  width: 15rem;
+}
+
+.form-buttons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 17rem;
+  height: 20rem;
+}
+
+.book {
+  border: 2px solid #22a094;
+}
+
+.book-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  height: 20rem;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-color {
+  color: #22a094;
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  padding: 1rem 2.4rem;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
+}
